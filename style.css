@@ -1,0 +1,102 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Layout de altura total para html e body */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: rgb(73, 73, 176);
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a, h1 {
+    color: aliceblue;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+   /* background-color: blanchedalmond; */
+   flex-grow: 1; /* Faz o conteúdo crescer para ocupar o espaço restante */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo-texto {
+    max-width: 639px;
+}
+
+/* Figure & Image */
+figure img {
+    max-width: 100%; /* Responsivo */
+    height: auto;    /* Mantém proporção */
+}
+
+figure {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    gap: 16px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Tipografia */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+ 
